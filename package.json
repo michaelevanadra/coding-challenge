@@ -1,0 +1,20 @@
+{
+  "name": "coding-challenge",
+  "version": "1.0.0",
+  "description": "Solutions to code challenges needed for recruitment process",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require @babel/register src/*.spec.js"
+  },
+  "author": "Michael Evan Adra",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/node": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/register": "^7.7.4",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  }
+}
